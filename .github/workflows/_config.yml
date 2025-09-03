@@ -38,3 +38,19 @@ jobs:
           plugins:
             - jekyll-relative-links
 
+            lsi: false
+            safe: true
+            source: .
+            incremental: false
+            highlighter: rouge
+            markdown: kramdown
+            kramdown:
+              input: GFM
+
+              remote_theme: pages-themes/minimal
+          plugins:
+          - jekyll-relative-links
+          - jekyll-remote-theme
+
+
+
