@@ -1,10 +1,38 @@
-name: Pages deploy  # 👈 Workflow name
+name: Pages deploy
 
 on:
   push:
     branches:
-      - main         # 👈 Trigger on push to 'main' branch only
+      - main
 
 jobs:
-  build-docs:        # 👈 Job name
-    runs-on: ubuntu-latest  # 👈 Environment
+  build-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the code
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Ruby with version 3.4 and enable bundler cache
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
+
+      # Step 3: Install dependencies using Bundler in the docs directory
+      - name: Install dependencies
+        run: bundle install
+        working-directory: docs
+
+      # Step 4: Build the site using Jekyll
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        working-directory: docs
+
+      # Step 5: Upload the built site as a Pages artifact
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs/_site
