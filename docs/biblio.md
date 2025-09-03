@@ -1,3 +1,5 @@
+--- 
+---
 https://icommunify.com/
 
 This is a website that allows users to create clubs and events for their schools. It is all on one platform so it eliminates the trouble of having to keep track of different sites. Icommunify is limited to certain schools with a plan to expand. I think I want my app to be only within Hanover. There is an RSVP feature which is something I was looking at to add. Users also get a notification sent to them on their calendar. I think these are good features to add since it makes it a lot more seamless to navigate events.
