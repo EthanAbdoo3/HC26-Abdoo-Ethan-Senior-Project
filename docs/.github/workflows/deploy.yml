@@ -1,0 +1,10 @@
+name: Pages deploy  # 👈 Workflow name
+
+on:
+  push:
+    branches:
+      - main         # 👈 Trigger on push to 'main' branch only
+
+jobs:
+  build-docs:        # 👈 Job name
+    runs-on: ubuntu-latest  # 👈 Environment
