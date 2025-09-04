@@ -1,5 +1,6 @@
 --- 
 ---
+# Annotated Bibliography
 https://icommunify.com/
 
 This is a website that allows users to create clubs and events for their schools. It is all on one platform so it eliminates the trouble of having to keep track of different sites. Icommunify is limited to certain schools with a plan to expand. I think I want my app to be only within Hanover. There is an RSVP feature which is something I was looking at to add. Users also get a notification sent to them on their calendar. I think these are good features to add since it makes it a lot more seamless to navigate events.
@@ -15,3 +16,19 @@ This website is what Hanover uses for their version of what I am looking to crea
 https://swoogo.events/
 
 This one just seems like a medium for colleges and universities to use for general information. It requires you to pay. Swoogo does not have that many big name schools that use it. It is only a few private schools so it does not seem popular.
+
+
+# Technologies
+
+## Platform
+- Web App
+## Programming language
+- Python
+## Frameworks
+- Django
+   - Features:
+     - Built in admin panel
+     - Object relation mapper for data access
+     - Authetication and user permissions
+     - Secure
+     - Scalable
