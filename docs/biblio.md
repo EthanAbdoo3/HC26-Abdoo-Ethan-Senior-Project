@@ -17,4 +17,18 @@ https://swoogo.events/
 
 This one just seems like a medium for colleges and universities to use for general information. It requires you to pay. Swoogo does not have that many big name schools that use it. It is only a few private schools so it does not seem popular.
 
+# Technologies
+
+## Platform
+- Web App
+## Programming language
+- Python
+## Frameworks
+- Django
+   - Features:
+     - Built in admin panel
+     - Object relation mapper for data access
+     - Authetication and user permissions
+     - Secure
+     - Scalable
 
