@@ -35,12 +35,13 @@ jobs:
   deploy-pages:
     needs: build-docs
     runs-on: ubuntu-latest
+    steps:
     uses: actions/deploy-pages@v4
     permissions:
       pages: write
       id-token: write
     runs-on: ubuntu-latest
-    steps:
+  
       
 
     
