@@ -1,56 +1,43 @@
-# This is a basic workflow to help you get started with Actions
+name: Pages deploy
 
-name: CI
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  build-docs:
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.4
+          bundler-cache: true
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
-         
-          plugins:
-            - jekyll-relative-links
+      - name: Install dependencies
+        run: bundle install
+        working-directory: docs
 
-            lsi: false
-            safe: true
-            source: .
-            incremental: false
-            highlighter: rouge
-            markdown: kramdown
-            kramdown:
-              input: GFM
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+        working-directory: docs
 
-              remote_theme: pages-themes/minimal
-          plugins:
-          - jekyll-relative-links
-          - jekyll-remote-theme
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./docs/_site
+
+  deploy-pages:
+    needs: build-docs
+    runs-on: ubuntu-latest
+    uses: actions/deploy-pages@v4
+
+    
 
 
 

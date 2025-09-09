@@ -1,3 +1,6 @@
+--- 
+---
+
 # Student Organization and Event Hub 
 ## Description
 - This project aims to develop a web-based platform that enables students to easily create, manage, and participate in student organizations and campus events. The hub will serve as a centralized space for student group communication, event promotion, RSVP tracking, and club administration.
