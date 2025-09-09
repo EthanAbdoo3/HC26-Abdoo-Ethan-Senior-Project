@@ -35,9 +35,8 @@ jobs:
   deploy-pages:
     needs: build-docs
     runs-on: ubuntu-latest
-    uses: actions/deploy-pages@v4
+    actions/deploy-pages@v4
 
-jobs:
   deploy-pages:
     permissions:
       pages: write
