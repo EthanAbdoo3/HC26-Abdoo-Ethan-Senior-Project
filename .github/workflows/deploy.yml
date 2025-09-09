@@ -37,6 +37,15 @@ jobs:
     runs-on: ubuntu-latest
     uses: actions/deploy-pages@v4
 
+jobs:
+  deploy-pages:
+    permissions:
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    steps:
+      
+
     
 
 
