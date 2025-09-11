@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["style.scss"],"names":[],"mappings":"AAAA;EACE","sourcesContent":["p {\n  line-height: 2;  // Makes paragraphs double-spaced\n}\n"],"file":"style.css"}
