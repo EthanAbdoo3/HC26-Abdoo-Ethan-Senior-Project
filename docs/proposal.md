@@ -4,6 +4,7 @@ title: proposal
 ---
 
 # Student Organization and Event Hub 
+
 ## Description
 - This project aims to develop a web-based platform that enables students to easily create, manage, and participate in student organizations and campus events. The hub will serve as a centralized space for student group communication, event promotion, RSVP tracking, and club administration.
 
@@ -14,6 +15,22 @@ title: proposal
 - Event calendar
 - Notification system
 - Admin dashboard
+
+# Technologies
+
+## Platform
+- Web App
+## Programming language
+- Python
+## Frameworks
+- Django
+   - Features:
+     - Built in admin panel
+     - Object relation mapper for data access
+     - Authetication and user permissions
+     - Secure
+     - Scalable
+
 
 ## Similar Concepts
 - iCommunify
