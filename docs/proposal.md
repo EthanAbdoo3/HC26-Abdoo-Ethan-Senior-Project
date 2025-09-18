@@ -16,15 +16,17 @@ title: proposal
 - Notification system
 - Admin dashboard
 
-# Technologies
+## Technologies
 
-## Platform
+### Platform
 - Web App
-## Programming language
+
+### Programming language
 - Python
-## Frameworks
+
+### Frameworks
 - Django
-   - Features:
+   - Features of Django:
      - Built in admin panel
      - Object relation mapper for data access
      - Authetication and user permissions
