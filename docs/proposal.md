@@ -1,4 +1,6 @@
 --- 
+layout: default
+title: proposal
 ---
 
 # Student Organization and Event Hub 
