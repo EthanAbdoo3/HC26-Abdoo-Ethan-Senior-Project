@@ -1,8 +1,10 @@
 ---
+layout: default
+title: Home
 ---
 
-# Welcome
 
 Here is my proposal:
 
-👉 [View Proposal](./proposal.md)
+- [Project Proposal](./proposal.md)
+- [Project Bibliography](./biblio.md)
