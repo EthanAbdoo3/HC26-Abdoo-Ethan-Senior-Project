@@ -47,10 +47,15 @@ title: proposal
 - Rubric
     - This site is more of what I am looking for. Rubric is a tool that helps schools and student unions **manage clubs, events, and funding** all in one place. It lets students **easily find and join organizations**, while also making it simpler for staff to approve events, handle forms, track budgets, and check if clubs meet requirements. By keeping everything organized and digital, it saves time for administrators and makes campus life more active and connected for students. I like what this site does with clubs, but it seems like it is only for school clubs. I think this is the direction I want to go in with the addition of **non-club affairs**.[4]
 
+- Accelevents
+    - Accelevents is a platform that helps schools and organizations run events more easily. It takes care of things like registration, ticketing, event schedules, and check-in, while also giving tools for polls, Q&A, and networking. It works for in-person, online, or hybrid events and makes it simple to organize and track everything in one place.I like the idea of this site and I might use it for some **formatting**.[5]
+
 ## References
 
 - [1] iCommunify, “iCommunify – Your Student Club & Event Platform,” iCommunify, 2025. [Online]. Available: https://icommunify.com [Accessed: Sept. 4, 2025].
 - [2] Springly, “Software for Colleges and Universities,” Springly, 2025. [Online]. Available: https://www.springly.org/en-us/nonprofit/software-for-colleges-and-universities [Accessed: Sept. 4, 2025].
 - [3] Suitable, “Student Engagement & Co-Curricular Learning Platform,” Suitable, 2025. [Online]. Available: https://www.suitable.co [Accessed: Sept. 4, 2025].
 - [4] Rubric, “Rubric – Student Engagement & Organization Management,” Rubric, 2025. [Online]. Available: https://hellorubric.com
+ [Accessed: Sept. 23, 2025].
+- [5] Accelevents, “Event Management Software for Universities,” Accelevents, 2025. [Online]. Available: https://www.accelevents.com/solutions/education
  [Accessed: Sept. 23, 2025].
