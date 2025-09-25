@@ -50,6 +50,12 @@ title: proposal
 - Accelevents
     - Accelevents is a platform that helps schools and organizations run events more easily. It takes care of things like registration, ticketing, event schedules, and check-in, while also giving tools for polls, Q&A, and networking. It works for in-person, online, or hybrid events and makes it simple to organize and track everything in one place.I like the idea of this site and I might use it for some **formatting**.[5]
 
+- Modern Campus
+    - Modern Campus Involve is a platform that helps colleges boost student involvement by making it easy to run and promote campus activities and student groups. It gives students tools to find organizations and events that match their interests, while letting staff track participation, send reminders, and see analytics to improve engagement and retention. This is the closest thing to what I want my app to be like. [6]
+
+- OrgSync
+    - OrgSync is a campus engagement platform that connects students with campus organizations, events, and programs in one online hub. Students can search for and join clubs, RSVP to events, track their involvement, and manage their profiles. Meanwhile, student organization leaders can post events, manage membership, create forms, and communicate with members more easily. This is similar to te club side of my app.[7]
+
 ## References
 
 - [1] iCommunify, “iCommunify – Your Student Club & Event Platform,” iCommunify, 2025. [Online]. Available: https://icommunify.com [Accessed: Sept. 4, 2025].
@@ -59,3 +65,8 @@ title: proposal
  [Accessed: Sept. 23, 2025].
 - [5] Accelevents, “Event Management Software for Universities,” Accelevents, 2025. [Online]. Available: https://www.accelevents.com/solutions/education
  [Accessed: Sept. 23, 2025].
+- [6] Modern Campus, “Student Co-Curricular Management | Involve – Student Engagement & Involvement,” Modern Campus, 2025. [Online]. Available: https://moderncampus.com/products/student-engagement-and-learning-platform.html
+ [Accessed: Sept. 25, 2025].
+- [7] OrgSync, “OrgSync – Campus Engagement Network,” OrgSync, 2025. [Online]. Available: https://www.orgsync.com
+ [Accessed: Sept. 25, 2025].
+
