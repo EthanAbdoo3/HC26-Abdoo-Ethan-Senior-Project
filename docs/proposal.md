@@ -3,7 +3,8 @@ layout: default
 title: proposal
 ---
 
-# Student Organization and Event Hub 
+# The Den: A Hub for Student Organization and Events 
+
 
 ## Description
 - This project aims to develop a web-based platform that enables students to easily create, manage, and participate in student organizations and campus events. The hub will serve as a centralized space for student group communication, event promotion, RSVP tracking, and club administration.
@@ -20,6 +21,7 @@ title: proposal
 
 ### Platform
 - Web App
+    - postgreSQL Data Base
 
 ### Programming language
 - Python
