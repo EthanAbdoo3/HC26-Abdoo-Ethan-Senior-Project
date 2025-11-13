@@ -16,3 +16,6 @@ Open `pc/views.py` and add the following below your existing `index` view:
 ```python
 def about(request):
     return HttpResponse("PantherConnect helps connect campus clubs!")
+```
+
+Continue to [Practice Exercises](exercises.md)

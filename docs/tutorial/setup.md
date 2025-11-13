@@ -28,3 +28,6 @@ In the terminal, run:
 
 ```bash
 python3 -m django --version
+```
+
+Continue to [Creating Your First Django App](creating-app.md)

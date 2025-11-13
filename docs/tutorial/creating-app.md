@@ -12,3 +12,6 @@ In your Codespace terminal, create a Django project (if you haven't already):
 
 ```bash
 django-admin startproject pantherconnect .
+```
+
+Continue to [Handling Requests & Views](handling-requests.md)
