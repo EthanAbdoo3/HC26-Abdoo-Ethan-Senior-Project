@@ -1,3 +1,8 @@
+--- 
+layout: default
+title: tutorial
+---
+
 # PantherConnect Django Tutorial
 
 Welcome! This tutorial teaches beginners how to create and run a basic Django web application.

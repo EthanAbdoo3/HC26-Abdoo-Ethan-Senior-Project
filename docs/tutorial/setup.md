@@ -1,3 +1,8 @@
+--- 
+layout: default
+title: tutorial
+---
+
 # Setup & Prerequisites
 
 ## Required Tools

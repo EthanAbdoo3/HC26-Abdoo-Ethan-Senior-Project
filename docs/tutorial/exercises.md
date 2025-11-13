@@ -1,3 +1,9 @@
+--- 
+layout: default
+title: tutorial
+---
+
+
 # Practice Exercises
 
 These exercises help you explore Django beyond what the tutorial provides.

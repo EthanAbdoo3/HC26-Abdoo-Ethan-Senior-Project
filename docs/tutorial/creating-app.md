@@ -1,3 +1,9 @@
+--- 
+layout: default
+title: tutorial
+---
+
+
 # Creating Your First Django App
 
 In Django, a **project** contains settings and configuration, while **apps** hold actual functionality. Many projects contain multiple apps.

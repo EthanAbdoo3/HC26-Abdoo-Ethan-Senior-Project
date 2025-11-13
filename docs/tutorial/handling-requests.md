@@ -1,3 +1,8 @@
+--- 
+layout: default
+title: tutorial
+---
+
 # Handling Requests & Views
 
 Django uses **views** to decide what content is returned when a user visits a URL. You can create multiple views in a single app.
