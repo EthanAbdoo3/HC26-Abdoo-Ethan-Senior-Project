@@ -20,6 +20,9 @@ def contact(request):
 ```
 You should now be able to see a contact page for your app!
 
+![Screenshot of contact page](screenshots/contact.png)
+
+
 ## Exercise 2 — Customize Your Index Page
 
 1. Open `members/views.py` and modify the `index` view to return a new message:

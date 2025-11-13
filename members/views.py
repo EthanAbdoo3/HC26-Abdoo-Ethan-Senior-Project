@@ -5,3 +5,6 @@ def index(request):
 
 def about(request):
     return HttpResponse("PantherConnect helps connect campus clubs!")
+
+def contact(request):
+    return HttpResponse("Contact page for PantherConnect!")
