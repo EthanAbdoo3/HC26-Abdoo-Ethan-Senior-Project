@@ -32,3 +32,5 @@ def index(request):
 You should now see your updated homepage message!
 
 Congratulations! You’ve completed the PantherConnect Django tutorial.
+
+Back to [Introduction](intro.md)
